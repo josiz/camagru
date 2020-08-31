@@ -1,5 +1,7 @@
 # camagru
 
+First web-branch solo project. Almost fully ajaxified.
+
 Back: PHP 
 Front: HTML, CSS, vanillaJS
 
