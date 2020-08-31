@@ -1,0 +1,193 @@
+.wrapper
+{
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar
+{
+    min-width: 150px;
+    max-width: 150px;
+    background-color: lightgray;
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+
+#sidebar li
+{
+    padding-top: 20px;
+}
+
+#changeMessage
+{
+    display: block;
+}
+
+#changeMessage:empty
+{
+    display: none;
+}
+
+#previewBack
+{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#imageSidebar
+{
+    height: 700px;
+    overflow-y: scroll;
+}
+
+#previewBox
+{
+    position: relative;
+    border: 7px solid red;
+}
+
+#closePreview
+{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    background-color: red;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    box-shadow: 6px 6px 29px -4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+#filters
+{
+    height: 230px;
+    overflow-y: scroll;
+}
+
+#galleryPreviewBack
+{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+#galleryPreviewBox
+{
+    position: relative;
+    border: 7px solid red;
+    z-index: 9999;
+}
+
+#galleryClosePreview
+{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 160px;
+    right: 100px;
+    background-color: red;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    box-shadow: 6px 6px 29px -4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    z-index: 99999 !important;
+}
+
+#button
+{
+    text-decoration: none;
+    font-family: arial;
+    color: white;
+    font-weight: bold;
+    background-color: #000050;
+    padding: 10px 15px;
+    box-shadow: 6px 6px 29px -4px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    margin-top: 25px;
+    transition: 0.4s;
+}
+
+#button:hover
+{
+    background-color: #0000FF;
+    color: #BBBBFF;
+}
+
+.popup
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-container
+{
+    width: 25%;
+    height: 30%;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+    #video
+    {
+        width: 425px !important;
+    }
+
+    #imageFilter
+    {
+        height: 100px; 
+        width: 100px;
+    }
+
+    #canvas
+    {
+        width: 425px;
+    }
+
+    #previewImage
+    {
+        width: 425px;
+        height: 240px;
+    }
+
+    #closePreview
+    {
+        top: 0px !important;
+    }
+
+}
