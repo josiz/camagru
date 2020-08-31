@@ -2,7 +2,8 @@
 
 First web-branch solo project. Almost fully ajaxified.
 
-Back: PHP 
+Back: PHP
+Database: MySQL (PDO)
 Front: HTML, CSS, vanillaJS
 
 No frameworks or libraries used. Only some bootstrap and that without jQuery.
