@@ -1,6 +1,6 @@
 # camagru
 
-Visit at http://46.101.112.101/
+Visit at http://46.101.112.101/   provider is digitalocean
 
 First web-branch solo project. Almost fully ajaxified.
 
@@ -17,7 +17,6 @@ After uploading your image other users can like them and comment on them.
 
 Fully dynamic and works on mobile.
 
-The code is ready, but only functional in LAN.. working on getting it running on a remote server. Current provider is digitalocean
 
 ![CamagruCapture](https://lh3.googleusercontent.com/pw/ACtC-3dy2FYtIOdAXwLeXpcxJcBxrNvpqmoRcR2A9F3oL0Qdovi56Upkf2Snbzv8NdoIs_Px-bUqSVPBXOMJ2rKFPR_cy5zHVtfjqG_tnFmRLNcalLjWfvAuAQqmbzUzDK79soKLRnk285QCJIoNgqA-OB_a=w716-h632-no)
 ![camagruGallery](https://lh3.googleusercontent.com/pw/ACtC-3dh42mrnXPLvirCvIN7Hxn13a5Xj0BYsGJgA4qf9HbzkSApicRS2ShXuWOrV1C-qMAlBmOpYtDu2RsoJz41Y10In2ubflhSQOhypDsqoIp2wdZM5gji2gtwdHksPSk2djMDhdVVKAc7qVORhMVLnlYW=w1297-h581-no?authuser=0)
